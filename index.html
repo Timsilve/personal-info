@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 data-testid="techGoals">My Tech Goals in 2 Years Time</h1>
+    </header>
+    <main>
+        <div class="sect">
+        <section id="profile">
+            <img data-testid="slackProfilePicture" src="./img/Untitled design.png" alt="Slack Profile Picture">
+<p id='name'> <span data-testid="slackDisplayName">Tim</span></p>
+ <p> <span data-testid="slackEmail">timsilva112.0@gmail.com</span></p>
+        </section>
+      
+        <section id="goals">
+            <h2>My Tech Goals</h2>
+            <ul>
+                <li data-testid="goal1">Become one of the Best in Frontend Development</li>
+                <li data-testid="goal2">To be one of  the HNG Mentors </li>
+                <li data-testid="goal3">To be a wizard in JavaScript and React</li>
+                <li data-testid="goal4">to Make Money</li>
+                <li data-testid="goal5">Earn certifications in front-end development from recognized platforms.</li>
+            </ul>
+        </section></div>
+        <section id="current-info">
+            <h2>Time</h2>
+                        <p data-testid="currentTimeUTC">Current Time: <span id="time"></span></p>
+                        <p data-testid="currentDay">Day of the Week: <span id="day"></span></p>
+                    </section>
+        <section id="links">
+            <h2>Resourceful Links</h2>
+            <ul>
+                <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+                <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
